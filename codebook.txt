@@ -1,0 +1,31 @@
+The dataset is created with the data that can be downloaded from the link https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+
+The source data package includes following files:
+- 'features_info.txt': Shows information about the variables used on the feature vector.
+- 'features.txt': List of all features.
+- 'activity_labels.txt': Links the class labels with their activity name.
+- 'train/X_train.txt': Training set.
+- 'train/y_train.txt': Training labels.
+- 'test/X_test.txt': Test set.
+- 'test/y_test.txt': Test labels.
+- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+- 'test/subject_test.txt':  Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+
+These files contain data that are recorded by the accelerometer and gyroscope of a smart phone in response to six human activities. 
+  
+The six human activities are following:
+
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+
+Thirty subjects, numbered from 1 to 30, participated in the experiments.
+
+561 features related to acceleration or angular velocity are recorded at a constant rate of 50Hz.
+
+The current dataset includes only features that are the mean or standard deviation of each measurement, which are extracted from the 561 total features. There are 79 such features. The data of the dataset are the average values of each feature for each activity and each subject. Because there are 30 subjects and each subject performs 6 activities, in total there are 180 rows in the dataset. Besides features, the dataset also has a column for subjects and a column for activities. Therefore, in total there are 81 columns in the dataset.
+Since the dataset stores the average values of each feature, the feature names (i.e. column names) of this dataset are the original feature names suffixed with "-avg".
+       
