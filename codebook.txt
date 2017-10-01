@@ -29,7 +29,51 @@ Thirty subjects, numbered from 1 to 30, participated in the experiments.
 561 features related to acceleration or angular velocity are recorded at a constant rate of 50Hz.
 
 The current dataset includes only features that are the mean or standard deviation of each measurement, which are extracted 
-from the 561 total features. There are 79 such features. The data of the dataset are the average values of each feature for 
+from the 561 total features. There are 79 such features, which are listed below:
+ [1] "tBodyAcc_mean_X"               "tBodyAcc_mean_Y"              
+ [3] "tBodyAcc_mean_Z"               "tBodyAcc_std_X"               
+ [5] "tBodyAcc_std_Y"                "tBodyAcc_std_Z"               
+ [7] "tGravityAcc_mean_X"            "tGravityAcc_mean_Y"           
+ [9] "tGravityAcc_mean_Z"            "tGravityAcc_std_X"            
+[11] "tGravityAcc_std_Y"             "tGravityAcc_std_Z"            
+[13] "tBodyAccJerk_mean_X"           "tBodyAccJerk_mean_Y"          
+[15] "tBodyAccJerk_mean_Z"           "tBodyAccJerk_std_X"           
+[17] "tBodyAccJerk_std_Y"            "tBodyAccJerk_std_Z"           
+[19] "tBodyGyro_mean_X"              "tBodyGyro_mean_Y"             
+[21] "tBodyGyro_mean_Z"              "tBodyGyro_std_X"              
+[23] "tBodyGyro_std_Y"               "tBodyGyro_std_Z"              
+[25] "tBodyGyroJerk_mean_X"          "tBodyGyroJerk_mean_Y"         
+[27] "tBodyGyroJerk_mean_Z"          "tBodyGyroJerk_std_X"          
+[29] "tBodyGyroJerk_std_Y"           "tBodyGyroJerk_std_Z"          
+[31] "tBodyAccMag_mean"              "tBodyAccMag_std"              
+[33] "tGravityAccMag_mean"           "tGravityAccMag_std"           
+[35] "tBodyAccJerkMag_mean"          "tBodyAccJerkMag_std"          
+[37] "tBodyGyroMag_mean"             "tBodyGyroMag_std"             
+[39] "tBodyGyroJerkMag_mean"         "tBodyGyroJerkMag_std"         
+[41] "fBodyAcc_mean_X"               "fBodyAcc_mean_Y"              
+[43] "fBodyAcc_mean_Z"               "fBodyAcc_std_X"               
+[45] "fBodyAcc_std_Y"                "fBodyAcc_std_Z"               
+[47] "fBodyAcc_meanFreq_X"           "fBodyAcc_meanFreq_Y"          
+[49] "fBodyAcc_meanFreq_Z"           "fBodyAccJerk_mean_X"          
+[51] "fBodyAccJerk_mean_Y"           "fBodyAccJerk_mean_Z"          
+[53] "fBodyAccJerk_std_X"            "fBodyAccJerk_std_Y"           
+[55] "fBodyAccJerk_std_Z"            "fBodyAccJerk_meanFreq_X"      
+[57] "fBodyAccJerk_meanFreq_Y"       "fBodyAccJerk_meanFreq_Z"      
+[59] "fBodyGyro_mean_X"              "fBodyGyro_mean_Y"             
+[61] "fBodyGyro_mean_Z"              "fBodyGyro_std_X"              
+[63] "fBodyGyro_std_Y"               "fBodyGyro_std_Z"              
+[65] "fBodyGyro_meanFreq_X"          "fBodyGyro_meanFreq_Y"         
+[67] "fBodyGyro_meanFreq_Z"          "fBodyAccMag_mean"             
+[69] "fBodyAccMag_std"               "fBodyAccMag_meanFreq"         
+[71] "fBodyBodyAccJerkMag_mean"      "fBodyBodyAccJerkMag_std"      
+[73] "fBodyBodyAccJerkMag_meanFreq"  "fBodyBodyGyroMag_mean"        
+[75] "fBodyBodyGyroMag_std"          "fBodyBodyGyroMag_meanFreq"    
+[77] "fBodyBodyGyroJerkMag_mean"     "fBodyBodyGyroJerkMag_std"     
+[79] "fBodyBodyGyroJerkMag_meanFreq"
+
+In addition, the dataset also includes Subject and Activity columns.
+
+The data of the dataset are the average values of each feature for 
 each activity and each subject. Because there are 30 subjects and each subject performs 6 activities, in total there are 180 rows 
 in the dataset. Besides features, the dataset also has a column for subjects and a column for activities. Therefore, in total 
 there are 81 columns in the dataset.
